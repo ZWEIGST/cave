@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+}
+
+.content {
+  background-image: url(./img/background.jpg);
+  height: 735px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dragon-content {
+  position: relative;
+  text-align: center;
+  background-image: url(./img/dragon-background.jpg);
+  height: 735px;
+}
+
+.dragon-content-text {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 56px;
+  color: #07a058;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.entrance-button {
+  background: #54d3f3;
+  border: 1px solid #075481;
+  -webkit-text-decoration-color: beige;
+          text-decoration-color: beige;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 25px;
+  width: 275px;
+  height: 46px;
+  font-size: 15px;
+  line-height: 18px;
+  outline: none;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.entrance-button:hover {
+  background: white;
+}
+/*# sourceMappingURL=styles.css.map */
